@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99A205D5290D335000948390 /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 99A205D4290D335000948390 /* TabBar */; };
+		99A205D7290D386100948390 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205D6290D386100948390 /* Overview.swift */; };
+		99A205D9290D386800948390 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205D8290D386800948390 /* Wallet.swift */; };
+		99A205DB290D387300948390 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205DA290D387300948390 /* Settings.swift */; };
+		99A205DD290D512B00948390 /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205DC290D512B00948390 /* MainCard.swift */; };
+		99A205DF290E725F00948390 /* CoinPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205DE290E725F00948390 /* CoinPalette.swift */; };
+		99A205E1290E90EF00948390 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E0290E90EF00948390 /* Onboarding.swift */; };
+		99A205E3290EA69700948390 /* CoinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E2290EA69700948390 /* CoinPage.swift */; };
+		99A205E5290EAC9000948390 /* Adding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E4290EAC9000948390 /* Adding.swift */; };
+		99A205E8290EAE2300948390 /* Sending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E7290EAE2300948390 /* Sending.swift */; };
+		99A205EA290EBB5100948390 /* Requesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E9290EBB5100948390 /* Requesting.swift */; };
+		99A205EC290ECAF300948390 /* CardOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205EB290ECAF300948390 /* CardOnboarding.swift */; };
+		99D16C9828F85CF500A9F492 /* PanxyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C9728F85CF500A9F492 /* PanxyApp.swift */; };
+		99D16C9A28F85CF500A9F492 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C9928F85CF500A9F492 /* Wrapper.swift */; };
+		99D16C9C28F85CF700A9F492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D16C9B28F85CF700A9F492 /* Assets.xcassets */; };
+		99D16C9F28F85CF700A9F492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D16C9E28F85CF700A9F492 /* Preview Assets.xcassets */; };
+		99D16CA928F85CF700A9F492 /* PanxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CA828F85CF700A9F492 /* PanxyTests.swift */; };
+		99D16CB328F85CF700A9F492 /* PanxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CB228F85CF700A9F492 /* PanxyUITests.swift */; };
+		99D16CB528F85CF700A9F492 /* PanxyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CB428F85CF700A9F492 /* PanxyUITestsLaunchTests.swift */; };
+		99D16CC228F85FB200A9F492 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC128F85FB200A9F492 /* Home.swift */; };
+		99D16CCB28F8602A00A9F492 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCA28F8602A00A9F492 /* CreditCard.swift */; };
+		99D16CCE28F8604800A9F492 /* ExpenseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCD28F8604800A9F492 /* ExpenseCard.swift */; };
+		99D16CD028F8605E00A9F492 /* TransactionChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCF28F8605E00A9F492 /* TransactionChart.swift */; };
+		99D16CD228F86A7B00A9F492 /* Rubik in Resources */ = {isa = PBXBuildFile; fileRef = 99D16CD128F86A7B00A9F492 /* Rubik */; };
+		99D16CD528F86C9600A9F492 /* NaviagtionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CD428F86C9600A9F492 /* NaviagtionBar.swift */; };
+		99D16CDA28F871DE00A9F492 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CD928F871DE00A9F492 /* TabBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D16CA528F85CF700A9F492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D16C8C28F85CF500A9F492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D16C9328F85CF500A9F492;
+			remoteInfo = Panxy;
+		};
+		99D16CAF28F85CF700A9F492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D16C8C28F85CF500A9F492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D16C9328F85CF500A9F492;
+			remoteInfo = Panxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99A205D6290D386100948390 /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		99A205D8290D386800948390 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		99A205DA290D387300948390 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		99A205DC290D512B00948390 /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
+		99A205DE290E725F00948390 /* CoinPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPalette.swift; sourceTree = "<group>"; };
+		99A205E0290E90EF00948390 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		99A205E2290EA69700948390 /* CoinPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPage.swift; sourceTree = "<group>"; };
+		99A205E4290EAC9000948390 /* Adding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding.swift; sourceTree = "<group>"; };
+		99A205E7290EAE2300948390 /* Sending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sending.swift; sourceTree = "<group>"; };
+		99A205E9290EBB5100948390 /* Requesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requesting.swift; sourceTree = "<group>"; };
+		99A205EB290ECAF300948390 /* CardOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnboarding.swift; sourceTree = "<group>"; };
+		99D16C9428F85CF500A9F492 /* Panxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D16C9728F85CF500A9F492 /* PanxyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyApp.swift; sourceTree = "<group>"; };
+		99D16C9928F85CF500A9F492 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		99D16C9B28F85CF700A9F492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D16C9E28F85CF700A9F492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99D16CA428F85CF700A9F492 /* PanxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D16CA828F85CF700A9F492 /* PanxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyTests.swift; sourceTree = "<group>"; };
+		99D16CAE28F85CF700A9F492 /* PanxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D16CB228F85CF700A9F492 /* PanxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyUITests.swift; sourceTree = "<group>"; };
+		99D16CB428F85CF700A9F492 /* PanxyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99D16CC128F85FB200A9F492 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		99D16CCA28F8602A00A9F492 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		99D16CCD28F8604800A9F492 /* ExpenseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCard.swift; sourceTree = "<group>"; };
+		99D16CCF28F8605E00A9F492 /* TransactionChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionChart.swift; sourceTree = "<group>"; };
+		99D16CD128F86A7B00A9F492 /* Rubik */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rubik; sourceTree = "<group>"; };
+		99D16CD328F86ABE00A9F492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		99D16CD428F86C9600A9F492 /* NaviagtionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviagtionBar.swift; sourceTree = "<group>"; };
+		99D16CD928F871DE00A9F492 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D16C9128F85CF500A9F492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A205D5290D335000948390 /* TabBar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D16CA128F85CF700A9F492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D16CAB28F85CF700A9F492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A205E6290EAC9700948390 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				99A205E4290EAC9000948390 /* Adding.swift */,
+				99A205E9290EBB5100948390 /* Requesting.swift */,
+				99A205E7290EAE2300948390 /* Sending.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		99D16C8B28F85CF500A9F492 = {
+			isa = PBXGroup;
+			children = (
+				99D16C9628F85CF500A9F492 /* Panxy */,
+				99D16CA728F85CF700A9F492 /* PanxyTests */,
+				99D16CB128F85CF700A9F492 /* PanxyUITests */,
+				99D16C9528F85CF500A9F492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99D16C9528F85CF500A9F492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D16C9428F85CF500A9F492 /* Panxy.app */,
+				99D16CA428F85CF700A9F492 /* PanxyTests.xctest */,
+				99D16CAE28F85CF700A9F492 /* PanxyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D16C9628F85CF500A9F492 /* Panxy */ = {
+			isa = PBXGroup;
+			children = (
+				99D16CD328F86ABE00A9F492 /* Info.plist */,
+				99D16CD128F86A7B00A9F492 /* Rubik */,
+				99D16C9728F85CF500A9F492 /* PanxyApp.swift */,
+				99D16CC928F8600500A9F492 /* Views */,
+				99D16CCC28F8602E00A9F492 /* Components */,
+				99A205E6290EAC9700948390 /* ViewModels */,
+				99D16C9B28F85CF700A9F492 /* Assets.xcassets */,
+				99D16C9D28F85CF700A9F492 /* Preview Content */,
+			);
+			path = Panxy;
+			sourceTree = "<group>";
+		};
+		99D16C9D28F85CF700A9F492 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99D16C9E28F85CF700A9F492 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99D16CA728F85CF700A9F492 /* PanxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				99D16CA828F85CF700A9F492 /* PanxyTests.swift */,
+			);
+			path = PanxyTests;
+			sourceTree = "<group>";
+		};
+		99D16CB128F85CF700A9F492 /* PanxyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99D16CB228F85CF700A9F492 /* PanxyUITests.swift */,
+				99D16CB428F85CF700A9F492 /* PanxyUITestsLaunchTests.swift */,
+			);
+			path = PanxyUITests;
+			sourceTree = "<group>";
+		};
+		99D16CC928F8600500A9F492 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99A205E0290E90EF00948390 /* Onboarding.swift */,
+				99D16C9928F85CF500A9F492 /* Wrapper.swift */,
+				99D16CC128F85FB200A9F492 /* Home.swift */,
+				99A205E2290EA69700948390 /* CoinPage.swift */,
+				99A205D6290D386100948390 /* Overview.swift */,
+				99A205D8290D386800948390 /* Wallet.swift */,
+				99A205DA290D387300948390 /* Settings.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99D16CCC28F8602E00A9F492 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				99D16CD428F86C9600A9F492 /* NaviagtionBar.swift */,
+				99D16CCA28F8602A00A9F492 /* CreditCard.swift */,
+				99D16CCD28F8604800A9F492 /* ExpenseCard.swift */,
+				99D16CCF28F8605E00A9F492 /* TransactionChart.swift */,
+				99D16CD928F871DE00A9F492 /* TabBar.swift */,
+				99A205DC290D512B00948390 /* MainCard.swift */,
+				99A205DE290E725F00948390 /* CoinPalette.swift */,
+				99A205EB290ECAF300948390 /* CardOnboarding.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D16C9328F85CF500A9F492 /* Panxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D16CB828F85CF700A9F492 /* Build configuration list for PBXNativeTarget "Panxy" */;
+			buildPhases = (
+				99D16C9028F85CF500A9F492 /* Sources */,
+				99D16C9128F85CF500A9F492 /* Frameworks */,
+				99D16C9228F85CF500A9F492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Panxy;
+			packageProductDependencies = (
+				99A205D4290D335000948390 /* TabBar */,
+			);
+			productName = Panxy;
+			productReference = 99D16C9428F85CF500A9F492 /* Panxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99D16CA328F85CF700A9F492 /* PanxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D16CBB28F85CF700A9F492 /* Build configuration list for PBXNativeTarget "PanxyTests" */;
+			buildPhases = (
+				99D16CA028F85CF700A9F492 /* Sources */,
+				99D16CA128F85CF700A9F492 /* Frameworks */,
+				99D16CA228F85CF700A9F492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D16CA628F85CF700A9F492 /* PBXTargetDependency */,
+			);
+			name = PanxyTests;
+			productName = PanxyTests;
+			productReference = 99D16CA428F85CF700A9F492 /* PanxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99D16CAD28F85CF700A9F492 /* PanxyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D16CBE28F85CF700A9F492 /* Build configuration list for PBXNativeTarget "PanxyUITests" */;
+			buildPhases = (
+				99D16CAA28F85CF700A9F492 /* Sources */,
+				99D16CAB28F85CF700A9F492 /* Frameworks */,
+				99D16CAC28F85CF700A9F492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D16CB028F85CF700A9F492 /* PBXTargetDependency */,
+			);
+			name = PanxyUITests;
+			productName = PanxyUITests;
+			productReference = 99D16CAE28F85CF700A9F492 /* PanxyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D16C8C28F85CF500A9F492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					99D16C9328F85CF500A9F492 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					99D16CA328F85CF700A9F492 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99D16C9328F85CF500A9F492;
+					};
+					99D16CAD28F85CF700A9F492 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99D16C9328F85CF500A9F492;
+					};
+				};
+			};
+			buildConfigurationList = 99D16C8F28F85CF500A9F492 /* Build configuration list for PBXProject "Panxy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D16C8B28F85CF500A9F492;
+			packageReferences = (
+				99A205D3290D335000948390 /* XCRemoteSwiftPackageReference "TabBar" */,
+			);
+			productRefGroup = 99D16C9528F85CF500A9F492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D16C9328F85CF500A9F492 /* Panxy */,
+				99D16CA328F85CF700A9F492 /* PanxyTests */,
+				99D16CAD28F85CF700A9F492 /* PanxyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D16C9228F85CF500A9F492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D16CD228F86A7B00A9F492 /* Rubik in Resources */,
+				99D16C9F28F85CF700A9F492 /* Preview Assets.xcassets in Resources */,
+				99D16C9C28F85CF700A9F492 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D16CA228F85CF700A9F492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D16CAC28F85CF700A9F492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D16C9028F85CF500A9F492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D16CD528F86C9600A9F492 /* NaviagtionBar.swift in Sources */,
+				99D16CCB28F8602A00A9F492 /* CreditCard.swift in Sources */,
+				99A205D7290D386100948390 /* Overview.swift in Sources */,
+				99D16CC228F85FB200A9F492 /* Home.swift in Sources */,
+				99A205DD290D512B00948390 /* MainCard.swift in Sources */,
+				99D16CD028F8605E00A9F492 /* TransactionChart.swift in Sources */,
+				99D16C9A28F85CF500A9F492 /* Wrapper.swift in Sources */,
+				99A205E3290EA69700948390 /* CoinPage.swift in Sources */,
+				99A205EA290EBB5100948390 /* Requesting.swift in Sources */,
+				99A205D9290D386800948390 /* Wallet.swift in Sources */,
+				99A205E8290EAE2300948390 /* Sending.swift in Sources */,
+				99A205DF290E725F00948390 /* CoinPalette.swift in Sources */,
+				99D16CDA28F871DE00A9F492 /* TabBar.swift in Sources */,
+				99A205E1290E90EF00948390 /* Onboarding.swift in Sources */,
+				99D16CCE28F8604800A9F492 /* ExpenseCard.swift in Sources */,
+				99A205DB290D387300948390 /* Settings.swift in Sources */,
+				99A205E5290EAC9000948390 /* Adding.swift in Sources */,
+				99D16C9828F85CF500A9F492 /* PanxyApp.swift in Sources */,
+				99A205EC290ECAF300948390 /* CardOnboarding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D16CA028F85CF700A9F492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D16CA928F85CF700A9F492 /* PanxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D16CAA28F85CF700A9F492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D16CB328F85CF700A9F492 /* PanxyUITests.swift in Sources */,
+				99D16CB528F85CF700A9F492 /* PanxyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D16CA628F85CF700A9F492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D16C9328F85CF500A9F492 /* Panxy */;
+			targetProxy = 99D16CA528F85CF700A9F492 /* PBXContainerItemProxy */;
+		};
+		99D16CB028F85CF700A9F492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D16C9328F85CF500A9F492 /* Panxy */;
+			targetProxy = 99D16CAF28F85CF700A9F492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99D16CB628F85CF700A9F492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99D16CB728F85CF700A9F492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D16CB928F85CF700A9F492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Panxy/Preview Content\"";
+				DEVELOPMENT_TEAM = QH3T53K3KZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Panxy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raynex.Panxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99D16CBA28F85CF700A9F492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Panxy/Preview Content\"";
+				DEVELOPMENT_TEAM = QH3T53K3KZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Panxy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raynex.Panxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99D16CBC28F85CF700A9F492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH3T53K3KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raynex.PanxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panxy.app/Panxy";
+			};
+			name = Debug;
+		};
+		99D16CBD28F85CF700A9F492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH3T53K3KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raynex.PanxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panxy.app/Panxy";
+			};
+			name = Release;
+		};
+		99D16CBF28F85CF700A9F492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH3T53K3KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raynex.PanxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Panxy;
+			};
+			name = Debug;
+		};
+		99D16CC028F85CF700A9F492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH3T53K3KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raynex.PanxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Panxy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D16C8F28F85CF500A9F492 /* Build configuration list for PBXProject "Panxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D16CB628F85CF700A9F492 /* Debug */,
+				99D16CB728F85CF700A9F492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D16CB828F85CF700A9F492 /* Build configuration list for PBXNativeTarget "Panxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D16CB928F85CF700A9F492 /* Debug */,
+				99D16CBA28F85CF700A9F492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D16CBB28F85CF700A9F492 /* Build configuration list for PBXNativeTarget "PanxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D16CBC28F85CF700A9F492 /* Debug */,
+				99D16CBD28F85CF700A9F492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D16CBE28F85CF700A9F492 /* Build configuration list for PBXNativeTarget "PanxyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D16CBF28F85CF700A9F492 /* Debug */,
+				99D16CC028F85CF700A9F492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99A205D3290D335000948390 /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99A205D4290D335000948390 /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99A205D3290D335000948390 /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 99D16C8C28F85CF500A9F492 /* Project object */;
+}
